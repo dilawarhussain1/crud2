@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url('https://urdufonts.net/fonts/jameel-noori-nastaleeq-regular');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  background-color: black;
   color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+
+}
+.main-header{
+  text-align: center;
+  font-family: 'jameel noori nastaleeq regular';
+}
+.main1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #212121;
+  color: whitesmoke;
+  margin-left: 20%;
+  margin-right: 20%;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+th{
+  padding-left: 15px;
+  list-style: upper-alpha;
+  border-left: 3px red solid;
+  font-family: 'jameel noori nastaleeq regular';
+}
+td{
+  padding-left: 15px;
+  list-style: upper-alpha;
+  border-left: 3px red solid;
+  font-family: 'jameel noori nastaleeq regular';
+}
+
+.header{
+  font-family: 'jameel noori nastaleeq regular';
+  
+
 }
